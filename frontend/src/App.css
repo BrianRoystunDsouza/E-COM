@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  cursor: url("./images/cursor.png"), auto;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-track {
+  background: rgb(191, 233, 246);
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: rgb(206, 242, 253);
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: rgb(192, 239, 254);
+  border-radius: 10px;
+}
+
+html::-webkit-scrollbar-thumb:active {
+  background: rgb(2, 196, 255);
+  border-radius: 10px;
+}
+.greenColor {
+  color: green !important;
+}
+.redColor {
+  color: red !important;
+}
